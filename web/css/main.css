@@ -3,4 +3,77 @@
   padding: 0;
   box-sizing: border-box; }
 
+.header {
+  font-family: 'Lato';
+  background-color: #3c8cfe; }
+  .header .header__circle_positon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0; }
+    .header .header__circle_positon .header__circle {
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 50%;
+      width: 185px;
+      height: 185px; }
+      .header .header__circle_positon .header__circle .header__circle_middle {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        width: 160px;
+        height: 160px;
+        position: relative;
+        top: 13px;
+        left: 13px; }
+        .header .header__circle_positon .header__circle .header__circle_middle .header__circle_inside {
+          background-color: white;
+          border-radius: 50%;
+          width: 140px;
+          height: 140px;
+          position: relative;
+          top: 10px;
+          left: 10px; }
+  .header .header__menu {
+    padding-top: 2%; }
+    .header .header__menu .header__nav {
+      text-align: end; }
+      .header .header__menu .header__nav .header__links {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: #fff;
+        font-size: 30px;
+        padding: 20px; }
+        .header .header__menu .header__nav .header__links:hover {
+          color: #0f5c08;
+          text-shadow: 25px 5px 5px #0a0909; }
+  .header .header__title {
+    color: #fff;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto; }
+    .header .header__title .header__title_slogan {
+      text-transform: uppercase;
+      font-size: 50px;
+      font-weight: 900;
+      margin-bottom: 40px; }
+    .header .header__title .header__title_text {
+      text-transform: uppercase;
+      font-size: 16px;
+      line-height: 2.5;
+      max-width: 770px;
+      margin-bottom: 75px; }
+    .header .header__title .header__title_btn {
+      width: 205px;
+      height: 55px;
+      border-radius: 40px;
+      border: 0;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 700;
+      color: #3c8cfe;
+      background-color: #fff;
+      margin-bottom: 90px; }
+    .header .header__title .header__arrow {
+      padding-bottom: 25px; }
+
 /*# sourceMappingURL=main.css.map */
