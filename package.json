@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "gulp": "^4.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-watch": "^5.0.1"
