@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
     <link rel="stylesheet" href="web/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
     <title>portfolio</title>
@@ -12,6 +13,21 @@
 
 <body>
     <section class="header" id="header">
+        <div class="header__navContainer">
+            <input type="checkbox" id="chk">
+            <label for="chk" class="">
+                    <img src="web/img/menu.png" alt="menu">
+                      </label>
+            <nav class="header__navContainer_title">
+                <a class="header__links" href="#header">home</a>
+                <a class="header__links" href="#about">About Me</a>
+                <a class="header__links" href="#services">Services</a>
+                <a class="header__links" href="#works">My Works</a>
+                <a class="header__links" href="#clients">Clients</a>
+                <label for="chk" class="header__navContainer_hide-menu-btn">
+                 <i class="fas fa-times"></i></label>
+            </nav>
+        </div>
         <header class="header__menu">
             <nav class="header__nav">
                 <a class="header__links" href="#header">home</a>
@@ -35,19 +51,16 @@
             <p class="header__title_text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
             </p>
-            <button class="header__title_btn">
-    hire me
-</button>
+            <button class="header__title_btn">hire me</button>
             <div class="header__arrow">
-                <a href="#works"><img src="web/img/arrow.png" alt="arrow"></a>
+                <a href="#works"><img class="header__arow_hover" src="web/img/arrow.png" alt="arrow"></a>
             </div>
-
         </div>
     </section>
-    <section class="aboutMe"></section>
-    <section class="expertIn"></section>
-    <section class="LatestWork"></section>
-    <section class="clients"></section>
+    <section class="aboutMe" id="about"></section>
+    <section class="expertIn" id="services"></section>
+    <section class="LatestWork" id="works"></section>
+    <section class="clients" id="clients"></section>
     <section class="footer"></section>
 
 </body>
