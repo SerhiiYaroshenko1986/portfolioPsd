@@ -5,6 +5,9 @@
 }
 
 .header {
+    .header__navContainer_img {
+        cursor: pointer;
+    }
     .header__navContainer {
         position: absolute;
         top: 20px;

@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+.header .header__navContainer_img {
+  cursor: pointer; }
+
 .header .header__navContainer {
   position: absolute;
   top: 20px;
