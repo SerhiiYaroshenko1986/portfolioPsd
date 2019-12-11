@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link rel="stylesheet" href="web/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="web/img/favicon.jpg" type="image/x-icon">
     <title>portfolio</title>
 </head>
 
@@ -12,32 +16,134 @@
     <section class="header"></section>
     <section class="aboutMe"></section>
     <section class="expertIn"></section>
-    <section class="LatestWork">
+    <section class="clients"></section>
+    <section class="header" id="header">
+        <div class="header__navContainer">
+            <input type="checkbox" id="chk">
+            <label for="chk" class="header__navContainer_img">
+                <img src="web/img/menu.png" alt="menu">
+            </label>
+            <nav class="header__navContainer_title">
+                <a class="header__links" href="#header">home</a>
+                <a class="header__links" href="#about">About Me</a>
+                <a class="header__links" href="#services">Services</a>
+                <a class="header__links" href="#works">My Works</a>
+                <a class="header__links" href="#clients">Clients</a>
+                <label for="chk" class="header__navContainer_hide-menu-btn">
+                    <i class="fas fa-times"></i></label>
+            </nav>
+        </div>
+        <header class="header__menu">
+            <nav class="header__nav">
+                <a class="header__links" href="#header">home</a>
+                <a class="header__links" href="#about">About Me</a>
+                <a class="header__links" href="#services">Services</a>
+                <a class="header__links" href="#works">My Works</a>
+                <a class="header__links" href="#clients">Clients</a>
+            </nav>
+        </header>
+        <div class="header__circle_positon">
+            <div class="header__circle">
+                <div class="header__circle_middle">
+                    <div class="header__circle_inside"></div>
+                </div>
+            </div>
+        </div>
+        <div class="header__title">
+            <h1 class="header__title_slogan">
+                free portfolio PSD template FOR GRAPHIC designerS
+            </h1>
+            <p class="header__title_text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            </p>
+            <button class="header__title_btn">hire me</button>
+            <div class="header__arrow">
+                <a href="#works"><img class="header__arow_hover" src="web/img/arrow.png" alt="arrow"></a>
+            </div>
+        </div>
+    </section>
+    <section class="aboutMe" id="about"></section>
+    <section class="expertIn">
+        <h2 class="expertIn__title">Expert In</h2>
+        <div class="expertIn-box">
+            <div class="expertIn-box__item">
+                <div class="expertIn__img"><img src="web/img/mobiledesign img.png" alt="icon"></div>
+                <span class="expertIn-box__title">mobile app design</span>
+                <p class="expertIn-box__text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+                    tenetur dolorum iste dignissimos
+                    neque dicta expedita nobis. </p>
+            </div>
+            <div class="expertIn-box__item">
+                <div class="expertIn__img"><img src="web/img/webdesign img.png" alt="icon"></div>
+                <span class="expertIn-box__title"> web design</span>
+                <p class="expertIn-box__text expertIn-box__text--smwidth"> Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Eligendi tenetur dolorum iste dignissimos
+                    neque dicta expedita nobis. </p>
+            </div>
+            <div class="expertIn-box__item">
+                <div class="expertIn__img"><img src="web/img/webdevelopment img.png" alt="icon"></div>
+                <span class="expertIn-box__title">web develoment</span>
+                <p class="expertIn-box__text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+                    tenetur dolorum iste dignissimos
+                    neque dicta expedita nobis, sed eum id.
+                </p>
+            </div>
+        </div>
+        <div class="expertIn-box">
+            <div class="expertIn-box__item">
+                <div class="expertIn__img"><img src="web/img/proddesign img.png" alt="icon"></div>
+                <span class="expertIn-box__title">product design</span>
+                <p class="expertIn-box__text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+                    tenetur dolorum iste dignissimos
+                    neque dicta expedita nobis, sed eum id.
+                </p>
+            </div>
+            <div class="expertIn-box__item">
+                <div class="expertIn__img"><img src="web/img/UxUi img.png" alt="icon"></div>
+                <span class="expertIn-box__title">ux&ui</span>
+                <p class="expertIn-box__text expertIn-box__text--smwidth"> Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Eligendi tenetur dolorum iste dignissimos
+                    neque dicta expedita nobis.
+                </p>
+            </div>
+            <div class="expertIn-box__item">
+                <div class="expertIn__img"><img src="web/img/animations img.png" alt="icon" class="animationimg">
+                </div>
+                <span class="expertIn-box__title">animations</span>
+                <p class="expertIn-box__text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+                    tenetur dolorum iste dignissimos
+                    neque dicta expedita nobis, sed eum id.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="LatestWork" id="works">
         <div class="latestwork__title">
             <span>Latest Works</span>
         </div>
         <div class="latestwork__img-wrapper">
             <div class="latestwork__img">
-                <img src="img\Work 1.png">
+                <img src="web\img\Work 1.png">
             </div>
             <div class="latestwork__img">
-                <img src="img\Work  2.png">
+                <img src="web\img\Work  2.png">
             </div>
             <div class="latestwork__img">
-                <img src="img\Work 3.png">
+                <img src="web\img\Work 3.png">
             </div>
             <div class="latestwork__img">
-                <img src="img\4.png">
+                <img src="web\img\4.png">
             </div>
             <div class="latestwork__img">
-                <img src="img\Work 5.png">
+                <img src="web\img\Work 5.png">
             </div>
             <div class="latestwork__img">
-                <img src="img\Work 6.png">
+                <img src="web\img\Work 6.png">
             </div>
         </div>
     </section>
-    <section class="clients"></section>
+    <section class="clients" id="clients"></section>
     <section class="footer"></section>
 
 </body>
