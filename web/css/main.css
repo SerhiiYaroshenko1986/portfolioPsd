@@ -352,3 +352,11 @@
     color: #5a5a5a;
     line-height: 30px;
 }
+
+.footer__button:hover {
+    color: #fff;
+    background-color: #620e3f;
+    box-shadow: 10px 10px 10px #f8c0e1;
+    transform: translate(10px, 10px);
+    transition: all 0.5s linear;
+}
