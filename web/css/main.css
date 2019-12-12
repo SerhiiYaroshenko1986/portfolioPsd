@@ -264,6 +264,91 @@
 }
 .latestwork__img img:hover{
     opacity: 0.5;
-    transition: 0.5s ease-in-out; 0.5;
     transition: 0.5s ease-in-out;
+}
+
+.aboutMe {
+    padding: 80px 25% 80px;
+    text-align: center;
+    min-height: 364px;
+}
+
+.aboutMe__title {
+    display: inline-block;
+    padding: 5%;
+    font-family: "Lato" sans-serif;
+}
+
+.clients {
+    min-height: 364px;
+    background: #F1F8FF;
+    padding: 20px 10% 0;
+    text-align: center;
+}
+
+.clients__title {
+    display: inline-block;
+    padding: 5%;
+}
+
+.clients__firms {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.clients__firms img {
+    padding: 4%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 75px 10% 0;
+    text-align: center;
+    min-height: 248px;
+    background-image: url(https://s8.hostingkartinok.com/uploads/images/2019/12/4799fa72a26775eb7b8664cb53ac2447.png);
+}
+
+.footer__button {
+    margin: 10px;
+    width: 205px;
+    height: 55px;
+    border-radius: 40px;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: #3c8cfe;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.footer__container p, b, button{
+    display: inline;
+    padding: 10px 10px 10px;
+}
+
+.footer p, b {
+    color: white;
+    font-family: "Lato";
+    font-size: x-large;
+}
+
+.footer p {
+    font-weight: 300;
+}
+
+.aboutMe__title h1, .clients__title h1 {
+    color: #3677fd;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 38px;
+}
+
+.aboutMe__text p {
+    font-family: "Lato";
+    color: #5a5a5a;
+    line-height: 30px;
 }
