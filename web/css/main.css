@@ -4,3 +4,97 @@
   box-sizing: border-box; }
 
 /*# sourceMappingURL=main.css.map */
+
+.aboutMe {
+    padding: 80px 25% 0;
+    text-align: center;
+    height: 364px;
+}
+
+.aboutMe__title {
+    display: inline-block;
+    padding: 5%;
+}
+
+.aboutMe__title h1 {
+    font-family: ;
+}
+
+.aboutMe__text {
+    /* margin: 0 30%; */
+}
+
+.clients {
+    height: 364px;
+    background: #F1F8FF;
+    padding: 20px 10% 0;
+    text-align: center;
+}
+
+.clients__title {
+    display: inline-block;
+    padding: 5%;
+}
+
+.clients__firms {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* .Microsoft {
+    width: 192px;
+    height: 41px;
+} */
+
+/* .Samsung {
+    width: 185px;
+    height: 28px;
+} */
+
+/* .ibm {
+    width: 140px;
+    height: 52px;
+} */
+
+/* .Google {
+    width: 170px;
+    height: 56px;
+} */
+
+.clients__firms img {
+    padding: 4%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 10% 0;
+    text-align: center;
+    height: 248px;
+    background-image: url(https://s8.hostingkartinok.com/uploads/images/2019/12/4799fa72a26775eb7b8664cb53ac2447.png);
+}
+
+.footer__button {
+    margin: 10px;
+    width: 205px;
+    height: 55px;
+    border-radius: 40px;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: #3c8cfe;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.footer__container p, b, button{
+    display: inline;
+    padding: 10px 10px 10px;
+}
+
+.aboutMe__title, .clients__title {
+    font-family: 'Lato';
+    font-weight: 300;
+}
